@@ -176,6 +176,7 @@ footer ul{
 
 footer ul li{
     list-style-type: none;
+    margin: 0 10px;
 }
 
 @media screen and (max-width: 950px){
