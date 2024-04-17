@@ -177,6 +177,7 @@ footer ul{
 footer ul li{
     list-style-type: none;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px){
@@ -226,6 +227,14 @@ footer ul li{
     nav ul{
         flex-direction: column;
         text-align: center;
+    }
+
+    footer ul{
+        flex-direction: column;
+    }
+
+    footer ul li{
+        margin-bottom: 10px;
     }
  
 }
