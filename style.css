@@ -101,7 +101,7 @@ nav ul li:hover{
 }
 
 .titreInfo{
-    color: #c52e2e;
+    color: #cb4b4b;
     margin-left: 5%;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -158,6 +158,24 @@ nav ul li:hover{
 
 .titreSpan{
     font-weight: bold;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #cb4b4b;
+    color: white;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer ul li{
+    list-style-type: none;
 }
 
 @media screen and (max-width: 950px){
