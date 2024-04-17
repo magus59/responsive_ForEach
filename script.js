@@ -27,3 +27,12 @@ function sommeElementsTableau(tableau){
 
 console.log(sommeElementsTableau(tableauNombres))
 console.log(sommeElementsTableau(autreTableauNombres))
+
+// Ajout du scroll top
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0, 
+        behavior: 'smooth'
+    });
+}
