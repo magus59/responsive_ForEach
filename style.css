@@ -95,3 +95,35 @@ nav ul li:hover{
     background-color: #c52e2e;
 }
 
+@media screen and (max-width: 850px) {
+    .infoEnContinu{
+        display: none;
+    }
+
+    .abonnement{
+        display: none;
+    }
+
+    .menuText{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .preNav{
+        padding: 10px 0;
+    }
+
+    .menuLogo{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+}
